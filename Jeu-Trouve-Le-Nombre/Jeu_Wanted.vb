@@ -20,7 +20,7 @@
                 Label1.Text = "Oupss, Ton nombre est trop grand, choisi un nombre plus petit ou égale à 100 !"
                 Label1.Left = (Me.Width / 2) - (Label1.Width / 2)
             ElseIf TextBox1.Text < 0 Then
-                Label1.Text = "Oupss, Ton nombre est trop pe tit, choisi un nombre plus grand ou égale à 0 !"
+                Label1.Text = "Oupss, Ton nombre est trop petit, choisi un nombre plus grand ou égale à 0 !"
                 Label1.Left = (Me.Width / 2) - (Label1.Width / 2)
 
             ElseIf TextBox1.Text > randomnum Then
